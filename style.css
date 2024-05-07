@@ -6,8 +6,9 @@
 .cabecalho{
     background-color: #424E61;
     display: flex;
-    
+    padding: 20px 10px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .lista-cabecalho{
@@ -17,17 +18,38 @@
 
 .lista-item{
     display: inline-block;
+    margin: 0 16px;
 }
 
-.principal{
-    background-image: linear-gradient(#424E61,white);
+.primeira-parte{
+    background-image: linear-gradient(#424e61,#4ebfe9);
     height: 500px;
+    color: #FFFFFF;
     padding: 100px;
-    color: white
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.escola{
+    padding: 24px 0;
+}
+
 .primeiro-paragrafo{
-    padding: 15px;
+    padding: 15px 0;
+    font-size: 20px;
 }
 .segundo-paragrafo{
-    padding: 15px;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.quem-somos{
+    padding: 24px 0;
+}
+.imagem{width: 75%;}
+.foto-do-estudante{
+    width: 25%;
+}
+.imagem-icone{
+    width: 30px;
 }
